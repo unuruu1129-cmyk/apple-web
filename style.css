@@ -1,3 +1,26 @@
-.apple {
-    size: 100px;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  width: 1920px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  background-color: white;
+  gap: 24px;
+  font-size: 12px;
+  
 }
